@@ -22,11 +22,10 @@ html {
 body {
   text-align: center;
   width: auto;
-  font-family: 'Open Sans', Century Gothic, Helvetica;
+  font-family: 'Open Sans', 'Century Gothic', Helvetica;
   font-weight: 300;
   color: #eee;
   /*background-color: #333;*/
-  height: 100%;
 }
 
 #more a {
@@ -40,29 +39,19 @@ body a {
 }
 
 nav {
-  z-index: 1;
   background-color: #333;
   width: 100%;
   height: 100px;
-  margin: 0 auto;
-  font-family: 'Economica';
+  font-family: 'Warsaw Gothic';
+  font-size: 1.5em;
   color: #eee;
   text-transform: uppercase;
 }
 
-
-.nav-elem {
-  margin: 30px;
-  height: 100px;
-  margin-top: 30px;
-  vertical-align: middle;
-}
-
 #header-container {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  margin-bottom: 10px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
 }
 
 header {
@@ -70,14 +59,6 @@ header {
   background-color: #333;
   height: 100px;
   margin: 0 auto;
-}
-
-header div {
-  display: inline-block;
-}
-
-.content {
-  padding-top: 10%;
 }
 
 #logo {
@@ -88,19 +69,17 @@ header div {
 
 #banner {
   text-align: center;
-  width: 100%;
-  margin-top: 100px;
-  opacity: .6;
+  width: 100vw;
+  height: 100vh;
+  opacity: .65;
   background-image: url(images/banner.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 #banner-bar {
   text-align: center;
-  position: relative;
-  top: 100px;
-  height: 180px;
   background-color: rgba(173, 97, 30, .75);
   padding: 5px;
 }
@@ -114,7 +93,7 @@ header div {
   margin: 0 auto;
 }
 @font-face {
-    font-family: Warsaw Gothic;
+    font-family: 'Warsaw Gothic';
     src: url("/WarsawGothic.otf") format("opentype");
 }
 
@@ -128,38 +107,27 @@ header div {
   font-size: 5em;
   padding-bottom: 50px;
 }
-#images {
-  margin-top: 5px;
-  align-items: center;
-  margin-right: 3cm;
+
+#gallery {
+  width: 400px;
+}
+
+#gallery img{
+  max-width:400px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
 }
 
 #title-fade {
-  font-family: 'Open Sans', Century Gothic, Helvetica;
+  font-family: 'Open Sans', 'Century Gothic', Helvetica;
   color: black;
-  position: absolute;
   text-align: center;
-  margin-top: 10px;
   font-size: 0.2em;
   padding: 20px;
+  margin: 20px 0;
+  width: 400px;
   background-color: rgba(173, 97, 30, .7);
-  margin-left: 2cm;
-}
-
-
-#title-img img {
-  height: 450px;
-}
-
-#title-text {
-  position: absolute;
-  top: 540px;
-  left: 160px;
-  background-color: rgba(173, 97, 30, .9);
-  width: 165px;
-  height: 100px;
-  padding: 15px;
-  font-size: .8em;
 }
 
 #play {
@@ -168,11 +136,10 @@ header div {
   background-image: url(images/play.png);
   background-size: 100% 100%;
   margin: 0 auto;
-
   position: relative;
   top: 160px;
 }
-
+/*
 #more {
   position: absolute;
   top: 475px;
@@ -200,36 +167,12 @@ header div {
 
 #more div p {
   margin: 10px;
-}
+}*/
 
 #schedule-form {
-  padding: 20px;
-  background-color: rgba(173,97,30,.9);
-  width: 460px;
-  height: 360px;
   position: absolute;
-  overflow: hidden;
-  top: 120px;
-  left: 435px;
-  font-size: .8em;
-}
-
-.ss-form {
-  text-align: left;
-}
-
-.ss-form-entry {
-  margin: 8px;
-}
-
-.ss-form-entry div {
-  display: inline-block;
-}
-
-.ss-choice-item {
-  list-style: none;
-}
-
-#ss-submit {
-  text-align: center;
+  top: 100px;
+  left: 40vw;
+  height: 500px;
+  background-color: rgba(173,97,30,.9);
 }

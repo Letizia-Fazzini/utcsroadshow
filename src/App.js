@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './index.css';
 import Header from './Header'
 import Entry from './Entry'
+import Contact from './Contact'
 class App extends Component {
   constructor(props){
     super(props)
@@ -18,6 +19,7 @@ class App extends Component {
 	  <div id = "banner" /> 
       <Header callBackParent = {(newActive) => this.handler(newActive)}/>
       {active === 'Entry' ? ( <Entry initial = {this.state.active} callBackParent = {(newActive) => this.handler(newActive)} /> ) :
+       active === 'Contact' ? ( <Contact initial = {this.state.active} callBackParent = {(newActive) => this.handler(newActive)} /> ) :
     	null }
       </div>
 
