@@ -1,12 +1,25 @@
 .join {
   width: 60vw;
   margin: 0 auto;
-  min-height: 65vh;
+  align-items: center;
+}
+
+.join div {
+  margin: 20px;
+}
+
+.join img {
+  width: 100%;
+}
+
+.join p {
+  max-width: 900px;
 }
 
 .join-button {
-  display: inline-block;
-  margin: 20px;
+  display: block;
+  width: 30vw;
+  margin: 20px auto;
   padding: 10px 20px;
   background-color: #B56012;
   color: white;
