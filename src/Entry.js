@@ -1,72 +1,52 @@
 import React, { Component } from 'react';
-import './index.css';
 import Typist from 'react-typist';
 import './Typist.css'
-import Fade from 'react-fade-opacity'
 import './style.css';
+import './index.css';
 
 export default class Entry extends Component {
-  constructor(props){
-    super(props)
-    this.state ={
-      typed : false
-    }
-    this.ended = this.ended.bind(this)
-  }
-
-  ended(){
-    this.setState({typed: true})
-  }
-
   render() {
-    const description = (
-        <Fade in={true} delay={0}>
-          <div className="entry-textbox" id ="description">
-            We visit local K-12 schools to teach students about Computer Science and other opportunities kids can take to get involved.
-          </div>
-        </Fade>
-    );
-
     const learnmore = (
-      <Fade in={true} delay={1000}>
-        <div className="entry-textbox" id ="learn-more" onClick={() => this.props.callBackParent('About')}>
-          <img src="images/learn_more.png"/>
-        </div>
-      </Fade>
+      <div className="entry-button" id ="learn-more" onClick={() => this.props.callBackParent('About')}>
+        <img src="images/learn_more.png"/>
+      </div>
     );
       
     const joinus = (
-      <Fade in={true} delay={2000}>
-        <div className="entry-textbox" id ="join-us" onClick={() => this.props.callBackParent('Join')}>
-          <img src="images/join.png"/>
-        </div>
-      </Fade>
+      <div className="entry-button" id ="join-us" onClick={() => this.props.callBackParent('Join')}>
+        <img src="images/join.png"/>
+      </div>
     );
 
     const form = (
       <div id="schedule-form">
+        <h1>Schedule a Visit</h1>
         <iframe 
           src="https://docs.google.com/forms/d/e/1FAIpQLSeDkaG6po6bIuzwayEe35EeHINJT-ceauxLaDdVYRrTCFvDGw/viewform?embedded=true" 
-          height={600} frameBorder={0} marginHeight={0} marginWidth={0}>Loading...</iframe>
-      </div>);
+          height={600} frameBorder={0}>Loading...</iframe>
+      </div>
+    );
 
     return (
       <div>
 
         <div id="title-banner">
-          <div id="title-img">
-            <Typist onTypingDone = {this.ended}>{"WE ARE UTCS ROADSHOW"}</Typist>
+          <Typist className="typed-text">{"WE ARE UTCS ROADSHOW"}</Typist>
+
+          <div id ="description">
+            We visit local K-12 schools to introduce students to the world of computer science,
+            and teach them about how they can get involved.
           </div>
-          <div className={"flex"}>
-            <div className={"entry-text-container"}>
-              {this.state.typed && description}
-              {this.state.typed && learnmore}
-              {this.state.typed && joinus}
-            </div>
-            <div>
-              {form}
-            </div>
+
+          <div className="entry-button-container">
+            {learnmore}
+            {joinus}
           </div>
+
+          <div>
+            {form}
+          </div>
+
         </div>
       </div>
     );
