@@ -12,7 +12,7 @@ export default class About extends Component {
       <div>
         <div className={"about"}>
           <h1>WHAT WE DO</h1>
-          <p>{whatwedo}</p>
+          <p id="what-we-do">{whatwedo}</p>
           <div className={"flex about-text"}>
             <div>
               <img src="images/hello_world.png"/>
@@ -25,11 +25,15 @@ export default class About extends Component {
               <p>{whycs}</p>
             </div>
             <div>
-              <img src="images/graph.png"/>
+              <img src="images/play.png"/>
               <h2>How to prepare?</h2>
               <p>{howtoprepare}</p>
             </div>
           </div>
+        </div>
+        <div className={"who-we-are"}>
+          <h1>WHO WE ARE</h1>
+          <img src="images/who-we-are.png"/>
         </div>
       </div>
     );

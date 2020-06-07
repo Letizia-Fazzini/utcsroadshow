@@ -30,25 +30,24 @@ export default class Header extends Component {
     event.preventDefault()
     this.props.callBackParent('Join');
   }
+  //TODO: figure out what's going on with img id logo
   render() {
     return (
-      <div id="header-container">
-        <header>
-          <nav>
-            <div className="nav-elem"><a onClick = {this.aboutClick}>About</a></div>
-            <div className="nav-circle">&#183;</div>
-            <div className="nav-elem"><a onClick = {this.eventsClick}>Events</a></div>
-            <div className="nav-circle">&#183;</div>
-            <div className="nav-elem" onClick = {this.homeClick}>
-              <img id="header-logo" alt="logo" src="images/logo.png" />
-            </div>
-            <div className="nav-circle">&#183;</div>
-            <div className="nav-elem"><a onClick = {this.teamClick}>Team</a></div>
-            <div className="nav-circle">&#183;</div>
-            <div className="nav-elem"><a onClick = {this.joinClick}>Join</a></div>
-          </nav>
-        </header>
-      </div>
+      <header>
+        <nav>
+          <div className="nav-elem"><a onClick = {this.aboutClick}>About</a></div>
+          <div className="nav-circle">&#183;</div>
+          <div className="nav-elem"><a onClick = {this.eventsClick}>Events</a></div>
+          <div className="nav-circle">&#183;</div>
+          <div className="nav-elem" onClick = {this.homeClick}>
+            <img id="logo" alt="logo" src="images/logo.png" /> 
+          </div>
+          <div className="nav-circle">&#183;</div>
+          <div className="nav-elem"><a onClick = {this.teamClick}>Team</a></div>
+          <div className="nav-circle">&#183;</div>
+          <div className="nav-elem"><a onClick = {this.joinClick}>Join</a></div>
+        </nav>
+      </header>
     );
   }
 }

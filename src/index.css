@@ -47,24 +47,6 @@
 #join-us { background-color: rgba(146, 173, 166, .7); }
 #join-us img { width: 100%;}
 
-#images {
-  margin-top: 5px;
-  align-items: center;
-  margin-right: 3cm;
-  max-width: 50vw;
-  display: inline-block;
-}
-
-#play {
-  width: 160px;
-  height: 160px;
-  background-image: url(images/play.png);
-  background-size: 100% 100%;
-  margin: 0 auto;
-  position: relative;
-  top: 160px;
-}
-
 #schedule-form {
   margin-top: 20px;
   width: 45vw;

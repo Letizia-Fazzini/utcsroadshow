@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './team.css';
 
 export default class Team extends Component {
   render() {
@@ -27,10 +28,8 @@ export default class Team extends Component {
           }
         </div>
 
-        <h1>JOIN US</h1>
-        <p>For general questions and inquiries, contact utcsroadshow@gmail.com.</p>
-        <p><a href="https://www.facebook.com/groups/549689365148387/events/">Join the Facebook group!</a></p>
-
+        <h1>CONTACT US</h1>
+        <p className="team-contact">For general questions and inquiries, contact <a href="mailto:utcsroadshow@gmail.com"> utcsroadshow@gmail.com.</a></p>
       </div>
     );
   }

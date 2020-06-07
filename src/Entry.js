@@ -3,9 +3,7 @@ import './index.css';
 import Typist from 'react-typist';
 import './Typist.css'
 import Fade from 'react-fade-opacity'
-import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
-
+import './style.css';
 
 export default class Entry extends Component {
   constructor(props){
@@ -45,23 +43,6 @@ export default class Entry extends Component {
       </Fade>
     );
 
-    const images = [
-      {
-        original: process.env.PUBLIC_URL + '/images/roadshow1.jpg',
-        thumbnail: process.env.PUBLIC_URL + '/images/roadshow1.jpg',
-      },
-      {
-		  original: process.env.PUBLIC_URL + '/images/roadshow2.jpg',
-          thumbnail: process.env.PUBLIC_URL + '/images/roadshow2.jpg',
-      },
-    ]
-
-    const gallery = (
-      <div id="images">
-        <ImageGallery items={images} showNav={false} showThumbnails={false} autoPlay = {true} slideDuration={5000}/>
-      </div>
-    );
-
     const form = (
       <div id="schedule-form">
         <iframe 
@@ -86,7 +67,6 @@ export default class Entry extends Component {
               {form}
             </div>
           </div>
-          {this.state.typed && gallery}
         </div>
       </div>
     );

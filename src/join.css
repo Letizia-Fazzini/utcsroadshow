@@ -1,5 +1,5 @@
 .join {
-  width: 70vw;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -11,25 +11,3 @@
   color: white;
   box-shadow: 2px 2px 5px #333;
 }
-
-.officers {
-  display: flex; 
-  flex-flow: wrap;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
-}
-
-.officer-card {
-  padding: 10px;
-}
-
-.officer-photo {
-  width: 200px;
-  border-radius: 50%;
-}
-
-.officer-position {
-  color: gray;
-}
-

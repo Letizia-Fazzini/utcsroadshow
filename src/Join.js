@@ -3,18 +3,20 @@ import './join.css';
 
 export default class Join extends Component {
   render() {
-
-    const jointext = "We're looking for committed UT students to help us make our team even better! Whether you're interested in gaining real experience creating content for the materials team, or enhancing your speech skills with the presentations team, we'd love to have you!";
+    const jointext = "We're looking for committed UT students to help us make our team even better. Whether you're interested in gaining real experience creating content for the materials team, or enhancing your speech skills with the presentations team, we'd love to have you!";
     const experiencetext = "No CS experience required. We'll teach you everything you need to know."
-    return (  
-      <div className="join">
-        <h1>INTERESTED IN JOINING?</h1>
-        <p>{jointext}</p>
-        <p>{experiencetext}</p>
-        <a className="join-button" href="https://www.facebook.com/groups/549689365148387/events/">
-          Join the Facebook group to see our upcoming events
-        </a>
+    return (
+      <div>
+          <div className="join">
+          <h1>INTERESTED IN JOINING?</h1>
+          <p>{jointext}</p>
+          <p>{experiencetext}</p>
+          <a className="join-button" href="https://www.facebook.com/groups/549689365148387/events/">
+            Join the Facebook group to see our upcoming events
+          </a>
+        </div>
       </div>
+      
     );
   }
 }

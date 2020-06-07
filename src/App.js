@@ -42,8 +42,18 @@ class App extends Component {
 
 function Footer(props) {
   return (
-    <div className={"footer"}>
-      {"Contact Us:\nutcsroadshow@gmail.com\nGDC 3rd Floor - Outreach Office"}
+    <div className={"footer flex"}>
+      <div>
+        <h3>UTCS Roadshow</h3>
+        <p>is an outreach organization dedicated to introducing computer science to grade schoolers around Austin.</p>
+      </div>
+      <div>
+      <h3>Contact Us</h3>
+        <p><a href="mailto:utcsroadshow@gmail.com">utcsroadshow@gmail.com</a></p>
+        <p>University of Texas at Austin</p>
+        <p>Gates Dell Complex, Room 3.314</p>
+        <p>2317 Speedway, Austin, TX</p>
+      </div>
     </div>
   );
 }
