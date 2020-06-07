@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.css';
+import './style.css';
 
 export default class Header extends Component {
   constructor(props){
@@ -7,7 +7,7 @@ export default class Header extends Component {
     this.aboutClick = this.aboutClick.bind(this)
     this.homeClick = this.homeClick.bind(this);
     this.eventsClick = this.eventsClick.bind(this);
-    this.contactClick = this.contactClick.bind(this);
+    this.teamClick = this.teamClick.bind(this);
     this.joinClick = this.joinClick.bind(this);
   }
   homeClick(event){
@@ -22,9 +22,9 @@ export default class Header extends Component {
     event.preventDefault()
     this.props.callBackParent('Events');
   }
-  contactClick(event){
+  teamClick(event){
     event.preventDefault()
-    this.props.callBackParent('Contact');
+    this.props.callBackParent('Team');
   }
   joinClick(event){
     event.preventDefault()
@@ -36,11 +36,15 @@ export default class Header extends Component {
         <header>
           <nav>
             <div className="nav-elem"><a onClick = {this.aboutClick}>About</a></div>
-            <div className="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div className="nav-circle">&#183;</div>
             <div className="nav-elem"><a onClick = {this.eventsClick}>Events</a></div>
-            <a href="$" onClick = {this.homeClick}><img id="logo" alt="logo" src="images/logo.png" /></a>
-            <div className="nav-elem"><a onClick = {this.contactClick}>Contact</a></div>
-            <div className="nav-elem">&emsp;&emsp;&emsp;/&emsp;&emsp;</div>
+            <div className="nav-circle">&#183;</div>
+            <div className="nav-elem" onClick = {this.homeClick}>
+              <img id="header-logo" alt="logo" src="images/logo.png" />
+            </div>
+            <div className="nav-circle">&#183;</div>
+            <div className="nav-elem"><a onClick = {this.teamClick}>Team</a></div>
+            <div className="nav-circle">&#183;</div>
             <div className="nav-elem"><a onClick = {this.joinClick}>Join</a></div>
           </nav>
         </header>
