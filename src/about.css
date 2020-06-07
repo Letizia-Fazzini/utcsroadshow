@@ -1,25 +1,35 @@
 .about {
-  text-align: center;
-  width: 70vw;
-  margin: auto;
+  margin: 0px auto 50px;
 }
 
-#what-we-do {
-  max-width: 700px;
-  margin: 30px auto 80px;
+#what-we-do-summary {
+  min-width: 200px;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex-flow: wrap;
+}
+
+.about-text div {
+  min-width: 200px;
+  max-width: 20vw;
+  margin: 10px;
 }
 
 .about-text img {
-  width: 300px;
+  width: 100%;
 }
 
-.about p {
-  margin: 20px 0px;
+.about-text p {
+  margin: 20px;
 }
 
 .who-we-are { background-color: #eee;}
 
 .who-we-are img {
-  width: 50vw;
+  min-width: 500px;
+  max-width: 50vw;
   margin-bottom: 100px;
 }
