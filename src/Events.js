@@ -10,18 +10,18 @@ export default class Events extends Component {
     // these images should all be 16:9 ratio
     const images = [
       {
-        original: process.env.PUBLIC_URL + '/images/events/roadshow1.jpg',
-        thumbnail: process.env.PUBLIC_URL + '/images/events/roadshow1.jpg',
+        original: '/images/events/roadshow1.jpg',
+        thumbnail: '/images/events/roadshow1.jpg',
       },
       {
-		    original: process.env.PUBLIC_URL + '/images/events/roadshow2.jpg',
-        thumbnail: process.env.PUBLIC_URL + '/images/events/roadshow2.jpg',
+		    original: '/images/events/roadshow3.jpg',
+        thumbnail: '/images/events/roadshow3.jpg',
       },
       {
-		    original: process.env.PUBLIC_URL + '/images/events/roadshow3.jpg',
-        thumbnail: process.env.PUBLIC_URL + '/images/events/roadshow3.jpg',
+		    original: '/images/events/roadshow2.jpg',
+        thumbnail: '/images/events/roadshow2.jpg',
       },
-    ]
+    ];
 
     return (
       <div>
@@ -32,7 +32,6 @@ export default class Events extends Component {
             showBullets={true}
             showThumbnails={false}
             autoPlay={true}
-            infinite={true}
           />
         </div>
         
