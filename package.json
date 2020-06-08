@@ -1,5 +1,6 @@
 {
   "name": "csroadshow",
+  "homepage": "http://www.cs.utexas.edu/roadshow",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
