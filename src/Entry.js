@@ -19,12 +19,39 @@ export default class Entry extends Component {
     );
 
     const form = (
-      <div id="schedule-form">
-        <h1>Schedule a Visit</h1>
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeDkaG6po6bIuzwayEe35EeHINJT-ceauxLaDdVYRrTCFvDGw/viewform?embedded=true" 
-          height={600} frameBorder={0}>Loading...</iframe>
-      </div>
+      <form 
+        action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdGVhIPEFN5uH8Zcql4VlEC3SnGJlUvv-9EH-Yt1LeZIZoiug/formResponse"
+        >
+        <label for="name">Name *</label>
+        <input name="entry.1385454639" type="text" id="name"/>
+        <label for="phone">Phone Number *</label>
+        <input name="entry.1626275741" type="text" id="phone"/>
+        <label for="email">Email address *</label>
+        <input name="entry.2027684475" type="text" id="email"/>
+        <label for="school-name">School/Event Name *</label>
+        <input name="entry.864891190" type="text" id="school-name"/>
+        <label for="school-address">School/Event Address *</label>
+        <input name="entry.89226394" type="text" id="school-address"/>
+        <p>Audience age level *</p>
+        <div className="schedule-form-radio">
+          <input type="radio" name="entry.1192033064" id="elementary" value="Elementary School"/>
+          <label className="schedule-form-radio-label" for="elementary">Elementary School</label>
+        </div>
+        <div className="schedule-form-radio">
+          <input type="radio" name="entry.1192033064" id="middle" value="Middle School"/>
+          <label className="schedule-form-radio-label" for="middle">Middle School</label>
+        </div>
+        <div className="schedule-form-radio">
+          <input type="radio" name="entry.1192033064" id="high" value="High School"/>
+          <label className="schedule-form-radio-label" for="high">High school</label>
+        </div>
+        <div className="schedule-form-radio">
+          <input type="radio" name="entry.1192033064" id="other" value="__other_option__"/>
+          <label className="schedule-form-radio-label" for="others">Other</label>
+          <input id="schedule-form-other" name="entry.1192033064.other_option_response" type="text"></input>
+        </div>
+        <input type="submit" value="Submit"></input>
+      </form>
     );
 
     return (
@@ -43,8 +70,11 @@ export default class Entry extends Component {
             {joinus}
           </div>
 
-          <div>
-            {form}
+          <div id="schedule-form-card">
+            <h1>Schedule a Visit</h1>
+            <div id="schedule-form">
+              {form}
+            </div>
           </div>
 
         </div>

@@ -6,10 +6,12 @@
   min-width: 200px;
   max-width: 70vw;
   margin: 0 auto;
+  text-align: center;
 }
 
 .about-text {
   flex-flow: wrap;
+  text-align: center;
 }
 
 .about-text div {
@@ -26,7 +28,10 @@
   margin: 20px;
 }
 
-.who-we-are { background-color: #eee;}
+.who-we-are { 
+  background-color: #eee;
+  text-align: center;
+}
 
 .who-we-are img {
   min-width: 500px;

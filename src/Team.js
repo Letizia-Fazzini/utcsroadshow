@@ -29,7 +29,7 @@ export default class Team extends Component {
         </div>
 
         <h1>CONTACT US</h1>
-        <p className="team-contact">For general questions and inquiries, contact <a href="mailto:utcsroadshow@gmail.com"> utcsroadshow@gmail.com.</a></p>
+        <p id="team-contact">For general questions and inquiries, contact <a href="mailto:utcsroadshow@gmail.com"> utcsroadshow@gmail.com.</a></p>
       </div>
     );
   }

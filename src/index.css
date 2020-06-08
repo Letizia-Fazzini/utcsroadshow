@@ -9,16 +9,25 @@
 }
 
 .typed-text {
-  color: rgba(146, 173, 166, .7);;
+  color: rgba(146, 173, 166, .7);
   font-family: 'Warsaw Gothic';
   font-size: 7em;
+  text-align: center;
+}
+
+#description { 
+  color: white;
+  max-width: 50vw;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .entry-button-container {
   display: flex;
-  max-width: 50vw;
+  max-width: 45vw;
   margin: auto;
 }
+
 .entry-button {
   padding: 20px;
   font-family: 'Open Sans','Century Gothic', Helvetica;
@@ -31,20 +40,90 @@
   max-width: 200px;;
 }
 
-#description { 
-  color: white;
-  max-width: 50vw;
-  margin: 0 auto;
-}
-
-#schedule-form {
-  margin: 20px auto;
+#schedule-form-card {
+  margin: 20px auto 50px;
   width: 70vw;
   background-color: rgba(173,97,30,.9);
   border-radius: 30px;
-  box-shadow: 2px 2px 10px #222;
+  box-shadow: 5px 5px 10px #222;
 }
 
-#schedule-form h1 {
+#schedule-form-card h1 {
   color: white;
+}
+
+#schedule-form {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 1.25em;
+}
+
+#schedule-form-card label, 
+#schedule-form-card p {
+  display: block;
+  color: white;
+  font-family: 'Economica', 'Dosis';
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.schedule-form-radio {
+  margin-bottom: 10px;
+}
+
+/* TODO: !important is bad practice :( */
+.schedule-form-radio-label {
+  font-family: 'Open Sans', 'Century Gothic', Helvetica !important;
+  text-transform: none !important;
+  font-size: 14px !important;
+  display: inline !important;
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin: 0px 10px;
+}
+
+input[type="radio"]:hover {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 90%;
+  color: white;
+  font-family: 'Open Sans', 'Century Gothic', Helvetica;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, .5);
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+input[type="text"]:focus {
+  border: 2px solid orange;
+  outline: none;
+}
+
+#schedule-form-other {
+  padding: 5px;
+  border-radius: 7px;
+  width: 200px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px auto 50px;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  font-family: 'Economica', 'Dosis';
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: #444;
+  cursor: pointer;
 }

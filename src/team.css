@@ -5,6 +5,7 @@
   justify-content: center;
   margin: auto;
   max-width: 85vw;
+  text-align: center;
 }
 
 .officer-card {
@@ -20,6 +21,7 @@
   color: gray;
 }
 
-.team-contact {
+#team-contact {
+  text-align: center;
   margin-bottom: 70px;
 }
