@@ -5,16 +5,17 @@ export default class Team extends Component {
   render() {
     // all officer photos should be square aspect ratio
     const officers = [
-      { name: "Raychel", position: "President", url: "/images/officers/raychel.jpg" },
-      { name: "Ann", position: "Vice President", url: "/images/officers/ann.jpg" },
-      { name: "Sahil", position: "Finance", url: "/images/officers/sahil.jpg" },
-      { name: "Jenny", position: "Marketing", url: "/images/officers/jenny.jpg" },
-      { name: "Ella", position: "Events", url: "/images/officers/ella.jpeg" },
-      { name: "Nila", position: "Technology", url: "/images/officers/nila.jpg" },
-      { name: "Cole", position: "Curriculum", url: "/images/officers/cole.jpg" },
-      { name: "Siddhi", position: "Operations", url: "/images/officers/siddhi.jpg" },
-      { name: "Ria", position: "Recruitment", url: "/images/officers/ria.jpeg" },
-      { name: "Bill Bulko", position: "Faculty Advisor", url: "/images/officers/bulko.jpg" },
+      { name: "Grace", position: "President", url: "images/officers/grace.jpeg" },
+      { name: "Katherine", position: "Vice President", url: "images/officers/katherine.jpg" },
+      { name: "Michelle", position: "Vice President", url: "images/officers/michelle.jpg" },
+      { name: "Bronson", position: "Events", url: "images/officers/bronsonz.jpg" },
+      { name: "Sejal", position: "Events", url: "images/officers/sejal.jpeg" },
+      { name: "Nila", position: "Technology", url: "images/officers/nila.jpg" },
+      { name: "Noah", position: "Curriculum", url: "images/officers/noah.jpg" },
+      { name: "Syed", position: "Finance", url: "images/officers/syed.jpg" },
+      { name: "Siddhi", position: "Operations", url: "images/officers/siddhi.jpg" },
+      { name: "Preeti", position: "Recruitment", url: "images/officers/preeti.jpg" },
+      { name: "Bill Bulko", position: "Faculty Advisor", url: "images/officers/bulko.jpg" },
     ];
 
     return (

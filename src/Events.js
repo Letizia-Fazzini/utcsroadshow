@@ -10,16 +10,16 @@ export default class Events extends Component {
     // these images should all be 16:9 ratio
     const images = [
       {
-        original: '/images/events/roadshow1.jpg',
-        thumbnail: '/images/events/roadshow1.jpg',
+        original: 'images/events/roadshow1.jpg',
+        thumbnail: 'images/events/roadshow1.jpg',
       },
       {
-		    original: '/images/events/roadshow3.jpg',
-        thumbnail: '/images/events/roadshow3.jpg',
+		    original: 'images/events/roadshow3.jpg',
+        thumbnail: 'images/events/roadshow3.jpg',
       },
       {
-		    original: '/images/events/roadshow2.jpg',
-        thumbnail: '/images/events/roadshow2.jpg',
+		    original: 'images/events/roadshow2.jpg',
+        thumbnail: 'images/events/roadshow2.jpg',
       },
     ];
 

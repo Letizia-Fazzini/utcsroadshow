@@ -8,7 +8,7 @@ export default class Join extends Component {
       <div>
         <div className="flex join">
           <div>
-            <img src="/images/weareroadshow.png"/>
+            <img src="images/weareroadshow.png"/>
           </div>
 
           <div id="join-block">

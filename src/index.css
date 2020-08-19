@@ -1,6 +1,6 @@
 @font-face {
   font-family: Warsaw Gothic;
-  src: url("/WarsawGothic.otf") format("opentype");
+  src: url("WarsawGothic.otf") format("opentype");
 }
 
 #title-banner {
