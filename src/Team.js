@@ -8,10 +8,10 @@ export default class Team extends Component {
       { name: "Katherine", position: "Co-President", url: "images/officers/katherine.jpg" },
       { name: "Michelle", position: "Co-President", url: "images/officers/michelle.jpg" },
       { name: "Bronson", position: "Events", url: "images/officers/bronsonz.jpg" },
-        { name: "Faiza", position: "Events", url: "images/officers/faiza.png" },
+        { name: "Faiza", position: "Events", url: "images/officers/faiza.jpg" },
       { name: "Siddhi", position: "Operations", url: "images/officers/siddhi.jpg" },
       { name: "Preeti", position: "Marketing", url: "images/officers/preeti.jpg" },
-        { name: "David", position: "Curriculum", url: "images/officers/david.png" },
+        { name: "David", position: "Curriculum", url: "images/officers/david.jpg" },
         { name: "Proma", position: "Finance", url: "images/officers/proma.jpg" },
       { name: "Bill Bulko", position: "Faculty Advisor", url: "images/officers/bulko.jpg" },
     ];
