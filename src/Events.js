@@ -14,12 +14,52 @@ export default class Events extends Component {
         thumbnail: 'images/events/roadshow1.jpg',
       },
       {
+		    original: 'images/events/roadshow2.jpg',
+        thumbnail: 'images/events/roadshow2.jpg',
+      },
+      {
 		    original: 'images/events/roadshow3.jpg',
         thumbnail: 'images/events/roadshow3.jpg',
       },
       {
-		    original: 'images/events/roadshow2.jpg',
-        thumbnail: 'images/events/roadshow2.jpg',
+        original: 'images/events/roadshow4.jpg',
+        thumbnail: 'images/events/roadshow4.jpg',
+      },
+      {
+        original: 'images/events/roadshow5.jpg',
+        thumbnail: 'images/events/roadshow5.jpg',
+      },
+      {
+        original: 'images/events/roadshow6.jpg',
+        thumbnail: 'images/events/roadshow6.jpg',
+      },
+      {
+        original: 'images/events/roadshow7.jpg',
+        thumbnail: 'images/events/roadshow7.jpg',
+      },
+      {
+        original: 'images/events/roadshow8.jpg',
+        thumbnail: 'images/events/roadshow8.jpg',
+      },
+      {
+        original: 'images/events/roadshow9.jpg',
+        thumbnail: 'images/events/roadshow9.jpg',
+      },
+      {
+        original: 'images/events/roadshow10.jpg',
+        thumbnail: 'images/events/roadshow10.jpg',
+      },
+      {
+        original: 'images/events/roadshow11.jpg',
+        thumbnail: 'images/events/roadshow11.jpg',
+      },
+      {
+        original: 'images/events/roadshow12.jpg',
+        thumbnail: 'images/events/roadshow12.jpg',
+      },
+      {
+        original: 'images/events/roadshow13.jpg',
+        thumbnail: 'images/events/roadshow13.jpg',
       },
     ];
 
@@ -34,7 +74,7 @@ export default class Events extends Component {
             autoPlay={true}
           />
         </div>
-        
+
         <div id="events-calendar-block">
           <h1>CALENDAR</h1>
           <div>
@@ -42,9 +82,9 @@ export default class Events extends Component {
               Check out our events on Facebook.
             </a>
           </div>
-          <iframe 
+          <iframe
             title="Events Calendar"
-            src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=utcsroadshow%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FChicago" 
+            src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=utcsroadshow%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FChicago"
             width="800" height="600" frameBorder="0" scrolling="no">
           </iframe>
         </div>

@@ -11,7 +11,7 @@ export default class Entry extends Component {
         <img src="images/learn_more.png"/>
       </div>
     );
-      
+
     const joinus = (
       <div className="entry-button" id ="join-us" onClick={() => this.props.callBackParent('Join')}>
         <img src="images/join.png"/>
@@ -19,7 +19,7 @@ export default class Entry extends Component {
     );
 
     const form = (
-      <form 
+      <form
         action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdGVhIPEFN5uH8Zcql4VlEC3SnGJlUvv-9EH-Yt1LeZIZoiug/formResponse"
         >
         <label for="name">Name *</label>
@@ -58,7 +58,7 @@ export default class Entry extends Component {
       <div>
 
         <div id="title-banner">
-          <Typist className="typed-text">{"WE ARE UTCS ROADSHOW"}</Typist>
+          <Typist className="typed-text">{"WE ARE CS ROADSHOW"}</Typist>
 
           <div id ="description">
             We visit local K-12 schools to introduce students to the world of computer science,

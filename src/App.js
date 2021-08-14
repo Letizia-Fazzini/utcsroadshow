@@ -44,7 +44,7 @@ function Footer(props) {
   return (
     <div className={"footer flex"}>
       <div>
-        <h3>UTCS Roadshow</h3>
+        <h3>CS Roadshow</h3>
         <p>is an outreach organization dedicated to introducing computer science to grade schoolers around Austin.</p>
       </div>
       <div>
