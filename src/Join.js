@@ -10,17 +10,13 @@ export default class Join extends Component {
           <div id="join-block">
             <h1>INTERESTED IN JOINING?</h1>
             <p>{jointext}</p>
-            <a className="join-button" href="https://www.facebook.com/groups/549689365148387/events/">
-              Join the Facebook group to see our upcoming events
+            <a className="join-button" href="https://discord.gg/zJZ4CsZ43x">
+              Join the Discord to see our upcoming events
             </a>
-            <a className="join-button" href="https://web.groupme.com/join_group/61142374/dRUy80Fj">
-              Join the GroupMe group for communication
-            </a>
-            <a className="join-button" href="https://docs.google.com/forms/d/127Uoj9Ylwv31AgQPJLoOna_vpb-uv0Wx_R9r6PZqiN8">
+            <a className="join-button" href="https://forms.gle/VVVPCvmEXD3BpXFM9">
               Fill out Google Forms for our members list
             </a>
           </div>
-
         </div>
       </div>
 

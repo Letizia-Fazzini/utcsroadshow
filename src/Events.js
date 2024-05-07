@@ -10,56 +10,56 @@ export default class Events extends Component {
     // these images should all be 16:9 ratio
     const images = [
       {
-        original: 'images/events/roadshow1.jpg',
-        thumbnail: 'images/events/roadshow1.jpg',
+        original: 'images/events/2024/roadshow1.jpeg',
+        thumbnail: 'images/events/2024/roadshow1.jpeg',
       },
       {
-		    original: 'images/events/roadshow2.jpg',
-        thumbnail: 'images/events/roadshow2.jpg',
+		    original: 'images/events/2024/roadshow2.jpeg',
+        thumbnail: 'images/events/2024/roadshow2.jpeg',
       },
       {
-		    original: 'images/events/roadshow3.jpg',
-        thumbnail: 'images/events/roadshow3.jpg',
+		    original: 'images/events/2024/roadshow3.jpg',
+        thumbnail: 'images/events/2024/roadshow3.jpg',
       },
       {
-        original: 'images/events/roadshow4.jpg',
-        thumbnail: 'images/events/roadshow4.jpg',
+        original: 'images/events/2024/roadshow4.jpg',
+        thumbnail: 'images/events/2024/roadshow4.jpg',
       },
       {
-        original: 'images/events/roadshow5.jpg',
-        thumbnail: 'images/events/roadshow5.jpg',
+		    original: 'images/events/2024/roadshow6.jpeg',
+        thumbnail: 'images/events/2024/roadshow6.jpeg',
       },
       {
-        original: 'images/events/roadshow6.jpg',
-        thumbnail: 'images/events/roadshow6.jpg',
+        original: 'images/events/2024/roadshow7.jpeg',
+        thumbnail: 'images/events/2024/roadshow7.jpeg',
       },
       {
-        original: 'images/events/roadshow7.jpg',
-        thumbnail: 'images/events/roadshow7.jpg',
+		    original: 'images/events/2024/roadshow8.jpeg',
+        thumbnail: 'images/events/2024/roadshow8.jpeg',
       },
       {
-        original: 'images/events/roadshow8.jpg',
-        thumbnail: 'images/events/roadshow8.jpg',
+		    original: 'images/events/2024/roadshow9.jpeg',
+        thumbnail: 'images/events/2024/roadshow9.jpeg',
       },
       {
-        original: 'images/events/roadshow9.jpg',
-        thumbnail: 'images/events/roadshow9.jpg',
+        original: 'images/events/2024/roadshow10.jpeg',
+        thumbnail: 'images/events/2024/roadshow10.jpeg',
       },
       {
-        original: 'images/events/roadshow10.jpg',
-        thumbnail: 'images/events/roadshow10.jpg',
+		    original: 'images/events/2024/roadshow11.jpeg',
+        thumbnail: 'images/events/2024/roadshow11.jpeg',
       },
       {
-        original: 'images/events/roadshow11.jpg',
-        thumbnail: 'images/events/roadshow11.jpg',
+		    original: 'images/events/2024/roadshow12.jpeg',
+        thumbnail: 'images/events/2024/roadshow12.jpeg',
       },
       {
-        original: 'images/events/roadshow12.jpg',
-        thumbnail: 'images/events/roadshow12.jpg',
+		    original: 'images/events/2024/roadshow13.jpeg',
+        thumbnail: 'images/events/2024/roadshow13.jpeg',
       },
       {
-        original: 'images/events/roadshow13.jpg',
-        thumbnail: 'images/events/roadshow13.jpg',
+		    original: 'images/events/2024/roadshow14.jpeg',
+        thumbnail: 'images/events/2024/roadshow14.jpeg',
       },
     ];
 
